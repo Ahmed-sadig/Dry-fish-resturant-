@@ -1,0 +1,167 @@
+
+@media(max-width:450px) and(max-width:600px){
+ body{
+
+    #menu-sec{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .logo{
+            margin-top: 13rem;
+           
+            .logo-img{
+                height: 100px;
+                 width: 100px;
+                object-fit: cover;
+            }
+        }
+        .hero-menu{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .menu{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .social{
+                padding: 2rem 0;
+            }
+            .adress{
+                padding-top: 3rem ;
+                padding-left: 2rem;
+            }
+        }
+        .hero-jambo{
+            width:100%;
+            height: 100%;
+            padding-bottom: 4rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            .new{
+                font-size: .6rem;
+                text-align: center;
+                align-self: center;
+            }
+            h1{
+                font-size: 2rem;
+                align-self: center;
+            }
+            .blink{
+                width: 200px;
+                height: 200px;
+                object-fit: contain;
+                
+                
+            }
+            .back-img{
+              display: none;
+            }
+        }
+    }
+
+    //info section
+
+    .info{
+        padding-top: 15rem;
+        width:100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .img-info{
+            display: none;
+            align-self: center;
+            width: 100%;
+            height: 100%;
+            padding: 3rem;
+            img{
+                align-self: center;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .text-info{
+            h1{
+                font-size: 1.9rem;
+            }
+            .text-info-para{
+                font-size: .8rem;
+            }
+        }
+       
+    }
+
+    //food section
+    .food{
+        padding: 0;
+        // margin: 0;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+       
+        .food-text{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+            h1{
+                margin-left: 1rem;
+                padding: 0 3rem;
+                width: 100%;
+                font-size: 1.6rem;
+            }
+        }
+        .slide-container{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding-bottom: 1rem;
+            .food-slide{
+                width: 100%;
+            }
+        }
+    }
+    .resturant-gallary{
+        width: 100%;
+      
+    }
+   footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h4{
+        font-size: .8rem;
+        font-weight: 600;
+        align-self: center;
+    }
+    span{
+        align-self: center;
+        font-weight: 800;
+        font-size: .8rem;
+    }
+   }
+
+ }
+   
+}
